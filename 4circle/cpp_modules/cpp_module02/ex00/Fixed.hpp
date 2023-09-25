@@ -1,0 +1,30 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Fixed.hpp                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: seunghye <seunghye@student.42seoul.kr>     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/10/04 15:41:52 by seunghye          #+#    #+#             */
+/*   Updated: 2022/10/05 16:56:45 by seunghye         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#pragma once
+
+#include <iostream>
+
+class	Fixed
+{
+	private:
+		int					fixedVal;
+		static const int	fractBit = 8;
+	public:
+		int		getRawBits(void) const;
+		void	setRawBits(int const);
+
+		Fixed(void);
+		Fixed(const Fixed&);
+		~Fixed(void);
+		Fixed&	operator=(const Fixed&);
+};

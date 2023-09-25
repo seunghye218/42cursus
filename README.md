@@ -1,2 +1,2 @@
 # 42cursus
-42Seoul Commo Cursus (Project-Based Learning)
+42Seoul Common Cursus (Project-Based Learning)

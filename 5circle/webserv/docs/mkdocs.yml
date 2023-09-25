@@ -1,0 +1,24 @@
+site_name: My Docs
+theme: readthedocs
+extra:
+  static_dirs:
+    - docs/image
+    - docs/til
+    
+nav:
+  - 'Intro': index.md
+  - 'How to develop': dev-method.md
+  - 'Convention': convention.md
+  - 'Requirements': requirements.md
+  - 'Allowed Functions': allowed-functions.md
+  - 'TIL':
+    - 'Daily todo': til/0_daily-todo.md
+    - '1_how-to-work-echo-server': til/1_how-to-work-echo-server.md
+    - '2_webserver-specification': til/2_webserver-specification.md
+    - '3_simple-configuration-parser': til/3_simple-configuration-parser.md
+    - '4_terminal-input-issue': til/4_terminal-input-issue.md
+    - '5_doxygen': til/5_doxygen.md
+    - '6_debate': til/6_debate.md
+    - '7_requestmsg_parsing' : til/7_requestmsg_parsing.md
+    - '8_response_msg_mockup_test' : til/8_response_msg_mockup_test.md
+    - '9_checklist' : til/9_checklist.md
